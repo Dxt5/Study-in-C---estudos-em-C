@@ -1,0 +1,124 @@
+Variaveis
+
+	int = inteiro
+	float = real
+	double = real com mais capacidade de armazenamento (pra numeros maiores)
+	char = caractere
+	char nome_variavel [x] = Vetor 2D
+	char nome_variavel [x][y] = Vetor 3D
+	char[numero_de_letras_na_palavra] = palavra
+
+Operadores aritméticos
+
+	+ = Somar
+	- = Subtrair
+	* = Multiplicar
+	/ = Dividir
+	% = Resto da divisão
+	++ = aumentar valor da variavel
+	-- = Diminuir o valor da variavel
+
+Operadores Lógicos
+
+	e = &&
+	|| = ou
+	== = igualdade
+	!= = Desigualdade
+	> = Maior
+	< = Menor
+	<= = Menor ou igual
+	>= = Maior ou igual
+
+Funções
+
+	if = se
+	else = senao
+	case = caso
+	scanf = leia
+	printf = Escreva
+	do = faça
+	while = enquanto
+	for = para
+	switch (variavel) = escolha
+	case valor: = caso
+	break = interrompa
+	system("cls") = Limpar tela
+
+Formatos
+
+	%c = char
+	%s = string
+	%d = int
+	%f = float
+	\n = Pular linha
+	%g, %G = float (Notação exponencial)
+	%lf = double
+	%u = unsigned int
+	%o = int (Octal)
+	%x, %X = int (Hexadecimal)
+	%2.f = 2 Numeros depois da vírgula em numeros decimais
+	" %[^\n]s" = Colocar espaço entre palavras (Ex: Arthur Henrique)
+
+Bibliotecas (colocá-las no inicio do codigo)
+
+	math.h = calculos com float de forma mais simples
+	string.h = Facilitador de strings
+	ctype.h = Facilitador de tipos de caracteres
+	
+Funçoes String.h
+
+	strcpy(string_destino, string_origem) = Copia do conteúdo de uma variável a outra. (Obs:Ambas devem ser strings.)
+	strcmp(string1, string2) = Verifica se as duas strings sao iguais, retorna zero se sao iguais, < 0 se a string 1 for menor que a string 2, > 0 se string 1 maior que string 2
+	strlen(string) = Mostra o tamanho de uma string
+
+	Site: http://linguagemc.com.br/a-biblioteca-string-h/
+
+Funções Ctype.h
+
+	tolower(variavel)
+	Converte o caracter em minúsculo
+
+	toupper(variavel)
+	Converte caracter minúsculo em maiúsculo.
+
+	isalnum(variavel)
+	Verifica se o caracter é alfanumérico
+
+	isalpha(variavel)
+	Verificar se o caracter é uma letra do alfabeto
+
+	iscntrl(variavel)
+	Verificar se o caracter é um caracter de controle
+
+	isdigit(variavel)
+	Verificar se o caracter é um digito decimal
+
+	isgraph(variavel)
+	Verifica se o caracter tem representação gráfica
+
+	islower(variavel)
+	Verifica se o caracter é minúsculo
+
+	isprint(variavel)
+	Verifica se o caracter é imprimível.
+
+	ispunct(variavel)
+	Verifica se o caracter é um ponto
+
+	isspace(variavel)
+	Verificar se o caracter é um espaço em branco
+
+	isupper(variavel)
+	Verifica se o caracter é uma letra maiúscula
+
+	isxdigit(variavel)
+	Verifica se o caracter é um dígito hexadecimal
+
+	Site: http://linguagemc.com.br/ctype-h-toupper-tolower-isalpha-isdigit-em-c/
+
+Funções Math.h
+
+	Fmod(dividendo,divisor) = Modulo com float (Necessita da biblioteca math.h)
+
+	Site: http://linguagemc.com.br/a-biblioteca-math-h/
+	
